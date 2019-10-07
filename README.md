@@ -9,6 +9,7 @@ Usage:
 
 Include the scripts in the following order:
 
+```html
 <script type="text/javascript" src="grid.js"></script>
 <script type="text/javascript" src="version.js"></script>
 <script type="text/javascript" src="detector.js"></script>
@@ -26,6 +27,7 @@ Include the scripts in the following order:
 <script type="text/javascript" src="findpat.js"></script>
 <script type="text/javascript" src="alignpat.js"></script>
 <script type="text/javascript" src="databr.js"></script>
+```
 
 Set qrcode.callback to function "func(data)", where data will get the decoded information.
 
